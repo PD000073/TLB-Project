@@ -18,7 +18,7 @@ struct Result {
     int cycles;
     int tlbHits;
     int tlbMisses;
-    int memoryAccesses; 
+    int memoryAccesses;  
 };
 
 // Function to parse the command line arguments

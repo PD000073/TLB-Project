@@ -15,7 +15,7 @@ int parse_arguments(int argc, char *argv[], unsigned *tlbSize, unsigned *tlbLate
     *inputFile = argv[6];
     *traceFile = argv[7];
 
-    return 0; 
+    return 0;  
 }
 
 // Function to read requests from the input file
