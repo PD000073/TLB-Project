@@ -11,7 +11,7 @@ struct TLBEntry {
     unsigned physicalAddress;
 };
 
-class TLB {
+class TLB {  
 public:
     // Constructor to initialize TLB with given size and latency
     TLB(size_t size, unsigned latency);

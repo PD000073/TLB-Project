@@ -12,7 +12,7 @@ bool TLB::lookup(unsigned virtualAddress, unsigned &physicalAddress) {
         entries.splice(entries.begin(), entries, it->second);
         physicalAddress = it->second->physicalAddress;
         return true;
-    }
+    } 
     return false;
 }
 
